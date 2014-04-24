@@ -1,0 +1,32 @@
+/* global */
+body {
+	background: url("../img/bg.png");
+}
+
+/* navigation */
+li {
+  list-style: none;
+  float: left;
+  margin: 0 10px 0 10px;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  padding: 10px 10px 10px 32px;
+}
+
+a:hover, a:active {
+}
+
+a:focus {
+  border: 1px dotted #000;
+}
+
+/* browsers */
+#mozilla a:hover {
+	background: url("../img/firefox.png") no-repeat left center;
+}
+
+#google a:hover {
+	background: url("../img/chrome.png") no-repeat;
+}
